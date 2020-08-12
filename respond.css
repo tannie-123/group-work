@@ -1,0 +1,161 @@
+@media only screen and (max-width: 600px){
+    .main-menu{
+        display: none;
+    }
+
+    header.wrapper{
+        height: 180px;
+    }
+
+    .main-menu{
+        display: none;
+    }
+
+    .dropdown{
+        position: relative;
+        display: inline-block;
+    }
+  
+    .dropdown-btn{
+        position: absolute;
+        right: -160px !important;
+        margin: -38px 40px 0 150px !important;
+    }
+
+   .dropdown-btn a{
+        font-size: 12px !important;
+        font-weight: normal !important;
+    }
+
+    .dropdown-menu{
+        display: none;
+        background-color: rgb(53, 52, 52);
+        margin-left: 45px !important;
+        margin-top: -2px !important;
+        z-index: 1;
+    }
+    
+    .dropdown-menu a:hover {
+        background-color: gray;
+    }*/
+
+    nav img{
+        width: 100px !important;
+        height: 65px !important;
+    }
+
+    p.intro{
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    .galla{
+        width: 500px;
+    }
+    h2{
+        font-size: 16px;
+    }
+    
+    footer{
+        font-size:10px;
+    }
+
+    .content-form{
+        margin-bottom: 8px;
+    }
+
+    .wrap{
+        width:350px;
+    }
+
+    .galla{
+        width: 500px;
+    }
+    
+    .content-form input,select{
+        margin-bottom: 8px;
+        padding: 0;
+        height: 15px;
+
+    }
+    
+     textarea{
+         height: 35px;
+     }
+
+    input[type=submit]{
+        width: 25%;
+        height: 20px;
+        padding: 5px;
+        font-size: 10px;
+    }
+
+    input label{
+        font-size: 12px;
+    }
+
+}
+
+
+@media only screen and (max-width: 768px){
+    body{
+        font-size: 15px;
+    }
+
+    .main-menu{
+        display: none;
+    }
+
+  /*dropdown menu button*/
+  .dropdown{
+      position: relative;
+      display: inline-block;
+  }
+
+  .dropdown-btn{
+      margin: 30px 40px 0 250px;
+      padding: 10px;
+      border-radius: 2px;
+  }
+
+  .dropdown-btn a{
+      text-align: center;
+      color: orange;
+      text-decoration: none;
+      padding: 10px;
+      font-size: 15px;
+      font-weight: bold;
+      border: none;
+  }
+
+   .dropdown-menu{
+       display: none;
+       position: absolute;
+       margin-top: -3px;
+       margin-left: 250px;
+       padding: 0;
+       background-color: white;
+       min-width: 100px;
+       z-index: 1;
+}
+
+.dropdown-menu a{
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding: 10px;
+}
+
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
+
+.dropdown:hover .dropdown-btn{
+    background-color: rgb(29, 28, 28);
+}
+
+.dropdown-menu a:hover{
+    background-color: skyblue;
+}
+
+}
